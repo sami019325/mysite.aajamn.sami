@@ -1,11 +1,22 @@
-.head{
-
+body{
+    animation: bg 5s infinite;
 }
 .div{
     width: 95%;
     background-color: blanchedalmond;
     border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 50px;
+    animation: div 5s infinite;
+
 }
+@keyframes div {
+    25%{ background-color: rgb(216, 201, 64); }
+    50%{ background-color: rgb(170, 241, 111); }
+    75%{ background-color: rgb(47, 231, 145); }
+    100%{ background-color: rgb(223, 95, 201); }
+  }
+
 .img{
     width: 70%;
     height: auto;
